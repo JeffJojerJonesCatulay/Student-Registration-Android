@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/bg"
+                    />
+
+                <EditText
+                    android:id="@+id/studentNum_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/border"
+                    android:fontFamily="@font/arbutus_slab"
+                    android:hint="Student No."
+                    android:paddingStart="5dp" />
+
+                <EditText
+                    android:id="@+id/surname_input"
+                    android:hint="Surname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border"
+                    android:paddingStart="5dp"
+                    android:fontFamily="@font/arbutus_slab"
+                    />
+
+                <EditText
+                    android:id="@+id/firstName_input"
+                    android:hint="FirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border"
+                    android:paddingStart="5dp"
+                    android:fontFamily="@font/arbutus_slab"
+                    />
+
+                <EditText
+                    android:id="@+id/middleName_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/border"
+                    android:hint="Middle Name"
+                    android:fontFamily="@font/arbutus_slab"
+                    android:paddingStart="5dp"
+                    />
+
+                <EditText
+                    android:id="@+id/address_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Address"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border"
+                    android:paddingStart="5dp"
+                    android:fontFamily="@font/arbutus_slab"
+                    />
+
+                <EditText
+                    android:id="@+id/contact_input"
+                    android:hint="Contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border"
+                    android:paddingStart="5dp"
+                    android:fontFamily="@font/arbutus_slab"
+                    android:inputType="number"
+                    />
+
+                <EditText
+                    android:id="@+id/email_input"
+                    android:hint="Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border"
+                    android:paddingStart="5dp"
+                    android:fontFamily="@font/arbutus_slab"
+                    />
+
+                <Spinner
+                    android:id="@+id/genderChoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border"
+                    android:fontFamily="@font/arbutus_slab"
+                    />
+
+                <Spinner
+                    android:id="@+id/collegesChoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border"
+                    android:fontFamily="@font/arbutus_slab"
+                    />
+
+                <Spinner
+                    android:id="@+id/courseChoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border"
+                    android:fontFamily="@font/arbutus_slab"
+                    />
+
+                <Spinner
+                    android:id="@+id/yearChoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border"
+                    android:fontFamily="@font/arbutus_slab"
+                    />
+
+                <Button
+                    android:id="@+id/registerBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/arbutus_slab"
+                    android:text="Register"
+                    android:textSize="14dp"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/white"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00BCD4"
+            app:menu="@menu/menu"
+            app:itemTextColor="@drawable/selector"
+            app:itemIconTint="@drawable/selector"
+            tools:ignore="MissingConstraints"
+            android:fitsSystemWindows="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
